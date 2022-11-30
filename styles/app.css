@@ -1,3 +1,41 @@
-.fa-instagram {
-  font-size: 50px;
+:root {
+  --playfair-font: "Playfair Display", serif;
+  --poppins-font: "Poppins", sans-serif;
+  --branding-color: #6c63ff;
+  --secondary-color: #f9f7fe;
+}
+
+.hero {
+  background-color: var(--secondary-color);
+  text-align: center;
+  padding: 160px 20px;
+}
+.hero h2 {
+  font-family: var(--poppins-font);
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  color: #272142;
+}
+.hero h1 {
+  font-family: var(--playfair-font);
+  font-size: 96px;
+  font-weight: bold;
+  color: black;
+}
+.hero h3 {
+  font-family: var(--poppins-font);
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 2;
+  color: #272142;
+}
+.btn-branding {
+  font-family: var(--poppins-font);
+  font-size: 18px;
+  background-color: var(--branding-color);
+  color: #ffffff;
+  border-radius: 4px;
+  line-height: 27px;
+  padding: 18px 30px;
 }
