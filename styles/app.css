@@ -5,6 +5,7 @@
   --secondary-color: #f9f7fe;
   --font-color: #272142;
 }
+
 h2 {
   font-family: var(--playfair-font);
   font-weight: bold;
@@ -12,7 +13,7 @@ h2 {
 }
 p {
   font-family: var(--poppins-font);
-  font-size: 16px;
+  font-size: 18px;
   line-height: 30px;
   color: var(--font-color);
 }
@@ -63,6 +64,39 @@ p {
 .project-description {
   padding: 120px 60px;
 }
+.project-description p {
+  font-size: 16px;
+  opacity: 0.7;
+}
+
+.hero-bottom {
+  background-color: var(--secondary-color);
+}
+
+.hero-bottom h4 {
+  font-family: var(--playfair-font);
+  font-size: 48px;
+  font-weight: bold;
+}
+.hero-bottom p {
+  font-family: var(--poppins-font);
+  font-size: 18px;
+}
+footer .footer-email {
+  text-decoration: none;
+  color: black;
+  font-family: var(--poppins-font);
+  font-weight: 500;
+  font-size: 24px;
+}
+.fa-brands {
+  margin: 20px;
+  padding: 15px;
+  border-radius: 100%;
+  background-color: var(--secondary-color);
+  color: var(--branding-color);
+}
+
 @media (max-width: 960px) {
   .hero h1 {
     font-size: 44px;
@@ -77,6 +111,13 @@ p {
   }
   .project-description {
     padding: 0;
+    text-align: center;
+  }
+  .hero-bottom h4 {
+    font-size: 42px;
+    text-align: center;
+  }
+  .hero-bottom p {
     text-align: center;
   }
 }
