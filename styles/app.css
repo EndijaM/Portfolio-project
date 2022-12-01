@@ -23,7 +23,8 @@ p {
   text-align: center;
   padding: 160px 20px;
 }
-.about {
+.about,
+.contact {
   padding: 160px 20px;
 }
 .work {
@@ -129,7 +130,8 @@ footer .footer-email {
     line-height: 2;
   }
   .hero h2,
-  .work h2 {
+  .work h2,
+  .contact h2 {
     font-size: 44px;
   }
 
