@@ -6,7 +6,8 @@
   --font-color: #272142;
 }
 
-h2 {
+h2,
+.about h1 {
   font-family: var(--playfair-font);
   font-weight: bold;
   font-size: 64px;
@@ -130,7 +131,7 @@ footer .footer-email {
     line-height: 2;
   }
   .hero h2,
-  .work h2,
+  .work h1,
   .contact h2 {
     font-size: 44px;
   }
