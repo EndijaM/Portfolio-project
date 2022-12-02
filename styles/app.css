@@ -7,7 +7,9 @@
 }
 
 h2,
-.about h1 {
+.about h1,
+.work h1,
+.contact h1 {
   font-family: var(--playfair-font);
   font-weight: bold;
   font-size: 64px;
@@ -18,15 +20,41 @@ p {
   line-height: 30px;
   color: var(--font-color);
 }
-
+.logo {
+  max-height: 40px;
+}
+nav li {
+  list-style: none;
+  display: inline;
+  line-height: 42px;
+  margin-left: 16px;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav {
+  padding: 20px 0;
+}
+nav a {
+  text-decoration: none;
+  color: var(--font-color);
+}
+nav a:hover,
+nav li.active a {
+  color: var(--branding-color);
+  transition: 100ms all ease-in-out;
+}
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
   padding: 160px 20px;
 }
-.about,
-.contact {
+.about {
   padding: 160px 20px;
+}
+.contact {
+  padding: 80px 20px;
 }
 .work {
   text-align: center;
@@ -132,7 +160,8 @@ footer .footer-email {
   }
   .hero h2,
   .work h1,
-  .contact h2 {
+  .about h1,
+  .contact h1 {
     font-size: 44px;
   }
 
