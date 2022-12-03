@@ -119,7 +119,7 @@ nav li.active a {
 }
 .hero-bottom p {
   font-family: var(--poppins-font);
-  font-size: 18px;
+  font-size: 16px;
 }
 footer .footer-email {
   text-decoration: none;
@@ -127,13 +127,22 @@ footer .footer-email {
   font-family: var(--poppins-font);
   font-weight: 500;
   font-size: 24px;
+  transition: all 100ms ease-in-out;
+}
+footer .footer-email:hover {
+  color: var(--branding-color);
 }
 .fa-brands {
   margin: 20px;
-  padding: 15px;
+  padding: 15px 15px;
   border-radius: 100%;
   background-color: var(--secondary-color);
   color: var(--branding-color);
+  transition: all 100ms ease-in-out;
+}
+a .fa-brands:hover {
+  background-color: var(--branding-color);
+  color: white;
 }
 .patricia {
   border-radius: 20px;
